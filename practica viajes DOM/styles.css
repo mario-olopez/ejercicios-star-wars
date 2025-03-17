@@ -1,0 +1,84 @@
+:root {
+    --fuente-landing: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente-landing);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h5 {
+    text-align: center;
+}
+
+.contenedor-practicaDom {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(29, 29, 31);
+    justify-content: center;
+    margin-top: 0;
+}
+
+.elemento-practicaDom {
+    font-family: var(--fuente-landing);
+    color: white;
+    text-align: center;
+    font-size:larger;
+    margin: auto;
+}
+
+.contenedor-banner {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    padding: 0;
+    font-family: var(--fuente-landing);
+}
+
+.foto-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.imagen-banner {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.contenedor-recomendados {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    gap: 2%;
+    margin: 5% auto;
+}
+
+.fotografias-recomendados {
+    width: calc(33.33% - 2%);
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+}
+
+#seleccione-destino {
+    width: 75%;
+    font-family: var(--fuente-landing);
+}
+
+#seleccione-destino select {
+}
