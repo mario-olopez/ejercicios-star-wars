@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor-formulario">
+        <form id="formulario">
+            <label>Introduce tu nombre</label>
+            <input type="text" placeholder="Tu texto aquí" id="input-nombre">
+            <br><br>
+            <label>Introduce tu correo</label>
+            <input type="email" placeholder="Mete tu correo" id="input-correo">
+            <br><br>
+            <label>Deja tu mensaje</label>
+            <textarea placeholder="Deja un mensaje" id="input-mensaje"></textarea>
+            <br><br>
+            <label>Envía una imagen</label>
+            <input type="url" placeholder="Tu imagen aquí" id="input-url">
+            <br><br>
+            <button type="submit"  id="guardar-datos">Enviar datos</button>
+            <br><br>
+            <button type="reset" onclick="reiniciarFormulario()" id="reiniciar-formulario">Reiniciar formulario</button>
+            <br><br>
+            <button type="reset" onclick="borrarContactos()" id="borrar-contacto">Borrar contactos</button>
+            <br><br>
+            <button type="reset" onclick="eliminarContacto()">Eliminar contacto</button>
+        </form>
+        <div id="datos-introducidos"></div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
