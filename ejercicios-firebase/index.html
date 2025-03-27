@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <div class="formulario">
+            <label>Introduce tu nombre</label>
+            <input type="text" id="nombre" required>
+            <br><br>
+
+            <label>Introduce tu correo</label>
+            <input type="email" id="correo" required>
+            <br><br>
+
+            <label>Deja tu mensaje</label>
+            <textarea id="mensaje" required></textarea>
+            <br><br>
+
+            <label>Introduce la URL de una imagen</label>
+            <input type="url" id="urlImagen" required>
+            <br><br>
+
+            <button id="botonSave" type="button">Guardar</button>
+            <br><br>
+            <button id="botonBorrar" type="button">Borrar todo</button>
+        </div>
+    </form>
+    <section id="album"></section>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>
